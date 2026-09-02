@@ -31,17 +31,17 @@ class ResponsiveZoom extends StatelessWidget {
 
     final aspectScale = math.sqrt(aspectRatio / referenceAspectRatio);
 
-    return sizeScale / aspectScale;
+    return math.sqrt(sizeScale / aspectScale);
   }
 
-  static Size referenceSize = Size(570, 1230);
+  static Size referenceSize = Size(450, 960);
 
   /// Prefer to just call once in main() to set the reference sizes for your app.
   /// referenceSize: The reference size for phones (portrait).
-  /// Default values are 570x1230
+  /// Default values are 450x960
   /// No need to call this method if you are happy with the default values.
-  static void setReferenceSize({Size referenceSize = const Size(570, 1230)}) {
-    referenceSize = referenceSize;
+  static void setReferenceSize({Size referenceSize = const Size(450, 960)}) {
+    ResponsiveZoom.referenceSize = referenceSize;
   }
 
   final Widget child;
@@ -92,6 +92,7 @@ class _ZoomMediaQuery extends StatelessWidget {
         viewPadding: mediaQuery.padding / zoom,
         padding: mediaQuery.padding / zoom,
         systemGestureInsets: mediaQuery.systemGestureInsets / zoom,
+        devicePixelRatio: mediaQuery.devicePixelRatio * zoom,
       ),
       child: child,
     );

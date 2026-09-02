@@ -302,6 +302,7 @@ class _InfoRow extends StatelessWidget {
               color: valueColor ?? const Color(0xFF17202A),
             ),
           ),
+
         ],
       ),
     );
