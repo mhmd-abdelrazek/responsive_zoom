@@ -52,15 +52,20 @@ The scaling happens once, at the root of your app, not on every widget.
 
 | Without `ResponsiveZoom` | With `ResponsiveZoom` |
 |---|---|
-| ![Without responsive zoom on 1242x2688](md_assets/1242x2688.png) | ![With responsive zoom on 1242x2688](md_assets/1242x2688_responsive.png) |
+| ![Without responsive zoom on 1242x2688](https://raw.githubusercontent.com/mhmd-abdelrazek/responsive_zoom/main/md_assets/1242x2688.png) | ![With responsive zoom on 1242x2688](https://raw.githubusercontent.com/mhmd-abdelrazek/responsive_zoom/main/md_assets/1242x2688_responsive.png) |
 
 ### Large screen — `2064x2752`
 
 | Without `ResponsiveZoom` | With `ResponsiveZoom` |
 |---|---|
-| ![Without responsive zoom on 2064x2752](md_assets/2064x2752.png) | ![With responsive zoom on 2064x2752](md_assets/2064x2752_responsive.png) |
+| ![Without responsive zoom on 2064x2752](https://raw.githubusercontent.com/mhmd-abdelrazek/responsive_zoom/main/md_assets/2064x2752.png) | ![With responsive zoom on 2064x2752](https://raw.githubusercontent.com/mhmd-abdelrazek/responsive_zoom/main/md_assets/2064x2752_responsive.png) |
+
+
 
 Without the wrapper, layouts built for one reference size look cramped or oversized on other devices. With `ResponsiveZoom`, the same widget tree scales cleanly to fill and fit every screen, with no per-widget changes.
+
+
+
 
 ---
 
