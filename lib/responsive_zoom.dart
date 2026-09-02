@@ -92,7 +92,6 @@ class _ZoomMediaQuery extends StatelessWidget {
         viewPadding: mediaQuery.padding / zoom,
         padding: mediaQuery.padding / zoom,
         systemGestureInsets: mediaQuery.systemGestureInsets / zoom,
-        devicePixelRatio: mediaQuery.devicePixelRatio * zoom,
       ),
       child: child,
     );

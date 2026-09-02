@@ -1,6 +1,6 @@
 name: responsive_zoom
 description: A tiny, dependency-free Flutter widget that scales your entire UI to fit different screen sizes.
-version: 1.0.1
+version: 1.0.2
 
 homepage: https://github.com/mhmd-abdelrazek/responsive_zoom
 repository: https://github.com/mhmd-abdelrazek/responsive_zoom

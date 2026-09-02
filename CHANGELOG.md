@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.0.2
+
+* Removed the custom `devicePixelRatio` modification from the zoomed `MediaQuery`.
+* Improved compatibility with Flutter APIs that rely on the device pixel ratio.
+
+## 1.0.1
+
+* Fixed README image links for proper display on pub.dev.
+* Improved README documentation and examples.
+
 ## 1.0.0
 
 * Initial release of `responsive_zoom`.
