@@ -31,7 +31,7 @@ class ResponsiveZoom extends StatelessWidget {
 
     final aspectScale = math.sqrt(aspectRatio / referenceAspectRatio);
 
-    return math.sqrt(sizeScale / aspectScale);
+    return sizeScale / aspectScale;
   }
 
   static Size referenceSize = Size(450, 960);
