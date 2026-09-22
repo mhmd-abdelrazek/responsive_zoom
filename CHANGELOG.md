@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.0.3
+
+- Fixed zoom calculation to prevent excessive scaling by removing the extra square root.
+
 ## 1.0.2
 
 * Removed the custom `devicePixelRatio` modification from the zoomed `MediaQuery`.
