@@ -87,6 +87,7 @@ class _ZoomMediaQuery extends StatelessWidget {
 
     return MediaQuery(
       data: mediaQuery.copyWith(
+        
         size: Size(mediaQuery.size.width / zoom, mediaQuery.size.height / zoom),
         viewInsets: mediaQuery.viewInsets / zoom,
         viewPadding: mediaQuery.padding / zoom,
